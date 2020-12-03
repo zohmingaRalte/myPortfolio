@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #4B5563;
+  --off-white-color: #E5E7EB;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+}
+
+hr {
+  margin: 2.5rem 0rem;
+}
+
+/** container **/
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* links */
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.link-secondary {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+}
+
+/* List */
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+/* Navigaition */
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navigation .link {
+  color: white;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+.hero {
+  padding: 1rem;
+  padding-top: 4rem;
+}
+
+.hero-img {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  text-align: center;
+  color: var(--primary-color);
+  padding: 1rem;
+}
+
+.hero .hero-heading .heading-inverted {
+  color: #9CA3AF;
+}
+
+/* section */
+.section {
+  padding: 2rem;
+}
+
+.section h1 {
+  text-align: center;
+}
+
+.ow {
+  background-color: var(--off-white-color);
+}
+
+/* footer */
+footer {
+  background-color: var(--primary-color);
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+/* Project/Padding For List */
+.list-pad {
+  padding: 2rem;
+}
