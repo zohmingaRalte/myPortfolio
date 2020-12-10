@@ -137,4 +137,5 @@ footer {
 /* Project/Padding For List */
 .list-pad {
   padding: 2rem;
+  list-style-type:none
 }
