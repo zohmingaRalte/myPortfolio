@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: #4B5563;
-  --off-white-color: #E5E7EB;
+  --off-white-color: #f3f4f6;
 }
 
 body {
@@ -138,4 +138,8 @@ footer {
 .list-pad {
   padding: 2rem;
   list-style-type:none
+}
+
+.fab {
+  font-size: 1.5rem;
 }
